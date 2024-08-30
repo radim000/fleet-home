@@ -30,6 +30,7 @@ metadata:
   labels:
     app: nginx
 spec:
+  loadBalancerIP: 192.168.0.134
   type: LoadBalancer
   selector:
     app: nginx
