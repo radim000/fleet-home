@@ -30,8 +30,8 @@ metadata:
   labels:
     app: nginx
 spec:
-  loadBalancerIP: 192.168.0.134
-  type: ClusterIP
+  #loadBalancerIP: 192.168.0.134
+  type: NodePort
   selector:
     app: nginx
   ports:
